@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+nav{
+    background-color: goldenrod;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fondo2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(../assets/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28312.webp);
+    height: 100%; 
+    margin-top: 50px; 
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+    gap: 20px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.formulario{
+    position: relative;
+    color: black;
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 550px;
+    height: 650px;
+    border: solid 10px goldenrod;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.formulario div{
+   padding-top: 30px;
+}
+
+.formulario div ::placeholder{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.TamañoB{
+    padding: 10px 50px;
+}
+
+.Boton1{
+    padding: 10px 80px;
+    border: solid 3px goldenrod;
+    color: black;
+    background-color: gainsboro;
+    border-radius: 5px;
+} 
+
+.Boton2{
+        padding: 10px 103px;
+        border: solid 3px goldenrod;
+        color: black;
+        background-color: gainsboro;
+        border-radius: 5px;
+}
+
+.mapa{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    background-color: goldenrod;
+    padding-top: 15px;
+    color: white;
+    height: 40px;
+    list-style: none;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.footer li{
+    padding-right: 50px;
+}
+
+.CasillerosF{
+    width: 235px;
+    height: 35px;
+}
+
+@media only screen and (max-width: 480px){
+
+    .fondo2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        object-fit: cover;
+        background-image: url(../assets/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28312.webp); 
+        margin-top: 50px; 
+        padding-top: 0px;
+        width: 100%;
+        padding-bottom: 600px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        font-size: 20px;
+        color: white;
+        width: 100%;
+        gap: 20px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        padding-top: 60px;
+        margin-right: 0px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .mapa{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        color: black;
+        border: solid 10px goldenrod;
+        border-radius: 10px;
+        text-align: center;
+        background-color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        align-items: center;
+        height: 700px;
+        width: 400px;
+        margin-left: 0;
+    }
+    
+    .formulario div ::placeholder{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .TamañoB{
+        padding: 10px 50px;
+    }
+    
+    .Boton1{
+        padding: 10px 80px;
+        border: solid 3px goldenrod;
+        color: black;
+        background-color: gainsboro;
+        border-radius: 5px;
+    } 
+    
+    .Boton2{
+            padding: 10px 103px;
+            border: solid 3px goldenrod;
+            color: black;
+            background-color: gainsboro;
+            border-radius: 5px;
+    }
+
+    .footer{
+        position: relative;
+        display: flex;
+        background-color: goldenrod;
+        color: white;
+        height: 40px;
+        list-style: none;
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    
+    .footer li{
+        padding-right: 20px;
+    }
+
+
+}

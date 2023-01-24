@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: goldenrod;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 1; 
+    
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fondo3{
+    position: relative;
+    background-image: url(../assets/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28312.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.caja{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.tabla{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    color: black;
+    background-color: gainsboro;
+    border: solid 5px goldenrod;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.tabla td{
+    color: black;
+    padding-top: 70px;
+}
+
+.tabla th{
+    padding-right: 50px;
+}
+
+.listas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lista{
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.bronce{
+    color: rgb(100, 48, 5);
+}
+
+.plata{
+    color: silver;
+}
+
+.oro{
+    color: goldenrod ;    
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    background-color: goldenrod;
+    color: white;
+    list-style: none;
+    padding-left: 30px;
+    font-size: 20px;
+    padding-top: 15px;
+    height: 40px;    
+}
+
+.footer li{
+    padding-right: 50px;
+}

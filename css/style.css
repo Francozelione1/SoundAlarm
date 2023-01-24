@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: goldenrod;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    font-size: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;   
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+a:hover{
+    color: black;
+}
+
+h3{
+    color: rgb(250, 246, 246);
+    position: relative;
+    padding: 5px;
+    padding-top: 30px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.article1{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+
+}
+
+.article1 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.soloA{
+
+    color: goldenrod;
+
+}
+
+main{
+    background-image: url(../assets/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+    
+}
+
+.article2{
+    position: relative;
+    margin-top: 100px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.cajiquis{
+    position: relative;
+    height: 700px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cajiquis:hover{
+
+    transform: scale(1 , 1.1);
+
+}
+
+.bronce{
+    border: solid 5px rgb(99, 54, 3);
+}
+
+.plata{
+    border: solid 5px silver;
+}
+
+.oro{
+    border: solid 5px goldenrod;
+}
+
+.article2 img{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.InfoCajas{
+    display: flex;
+    background-color: rgb(54, 13, 42);
+    font-size: 20px;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.VerMas{
+    display: flex;
+    align-self: flex-end;
+    height: 50px;
+    padding: 15px;
+    width: 120px;
+    justify-content: center;
+    margin-right: 20px;
+    border: solid 5px black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bronce1{
+    background-color: rgb(99, 54, 3);
+}
+
+.plata1{
+    background-color: silver; 
+}
+
+.oro1{
+    background-color: goldenrod;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    background-color: goldenrod;
+    padding-top: 15px;
+    color: white;
+    height: 50px;
+    list-style: none;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.footer li{
+    padding-right: 50px;
+}
+
+@media only screen and (max-width: 480px){
+
+h3{
+        color: rgb(250, 246, 246);
+        position: relative;
+        padding: 5px;
+        padding-top: 30px;
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace ;
+        font-weight: bold;
+        align-self: center;
+    
+}
+
+.article1{
+    
+        color: rgb(255, 255, 255);
+        margin-top: 50px;
+        
+        
+    
+}
+    
+.article1__titulo{
+    
+        display: inline;
+        margin-right: 150px;
+}
+    
+.article1 p{
+        margin-top: 20px;
+        font-size: 15px;
+}
+
+.cajiquis{
+    position: relative;
+    height: 700px;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InfoCajas{
+        display: flex;
+        background-color: rgb(54, 13, 42);
+        font-size: 20px;
+        flex-direction: column;
+        height: 50%;
+        justify-content: space-around;
+        align-items: center;   
+}
+
+.article2{
+    position: relative;
+    margin-top: 100px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    background-color: goldenrod;
+    padding-top: 15px;
+    color: white;
+    list-style: none;
+    padding-left: 10px;
+    font-size: 15px;
+    gap: 5px;
+}
+
+.footer li{
+
+    padding-right: 20px;
+
+}
+
+
+}
