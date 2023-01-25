@@ -186,16 +186,11 @@ h3{
 }
 
 .article1{
-    
         color: rgb(255, 255, 255);
         margin-top: 50px;
-        
-        
-    
 }
     
 .article1__titulo{
-    
         display: inline;
         margin-right: 150px;
 }
@@ -250,7 +245,6 @@ h3{
 }
 
 .footer li{
-
     padding-right: 20px;
 
 }

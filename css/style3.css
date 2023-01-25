@@ -24,6 +24,11 @@ a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-weight: bold;
+    transition: 1s;
+}
+
+a:hover{
+    color: black;
 }
 
 .fondo3{
