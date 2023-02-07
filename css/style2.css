@@ -1,229 +1,361 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0; }
 
-}
+.navColor {
+  background-color: goldenrod;
+  font-weight: bold;
+  position: fixed;
+  background-size: cover;
+  top: 0;
+  font-size: 20px;
+  z-index: 1; }
 
-nav{
-    background-color: goldenrod;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    height: 50px;
-}
+.navbar a {
+  font-weight: bold;
+  color: white;
+  transition: 0.8s;
+  font-size: 20px; }
 
-nav ul li{
-    display: inline-block;
-    padding: 5px;
-    margin: 5px;
-}
+.navbar a:hover {
+  color: blue; }
 
-a{
-    color: white;
-    text-decoration: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    font-weight: bold;
-    transition: 1s;
-}
+.dropdown-menu {
+  background-color: black; }
 
-a:hover{
+.fondo2 {
+  position: relative;
+  background-image: url(../assets/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28312.webp);
+  background-size: cover;
+  object-fit: cover;
+  padding-top: 100px;
+  padding-bottom: 100px; }
 
-    color: black;
+.contenedor-bg {
+  margin-top: 45px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 20px; }
 
-}
+.info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  gap: 20px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  align-items: center; }
 
-.fondo2{
+.parte2 {
+  position: relative;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center; }
+
+.formulario {
+  position: relative;
+  color: black;
+  width: 70%;
+  border: solid 10px goldenrod;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  background-size: cover;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 50px;
+  padding-bottom: 10%; }
+
+.formulario div {
+  padding-top: 30px; }
+
+.formulario div ::placeholder {
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.btns {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.Boton1 {
+  display: flex;
+  justify-content: center;
+  border: solid 3px goldenrod;
+  color: black;
+  background-color: gainsboro;
+  border-radius: 5px;
+  width: 50%; }
+
+.mapa {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; }
+
+.caja {
+  display: flex;
+  position: relative;
+  width: 100%;
+  gap: 50px;
+  margin-top: 200px; }
+
+.tabla {
+  display: flex;
+  position: relative;
+  font-size: 20px;
+  color: black;
+  background-color: gainsboro;
+  border: solid 5px goldenrod;
+  padding: 0 5% 0 5%;
+  margin-left: 5%;
+  border-radius: 10px;
+  width: 50%;
+  overflow: hidden; }
+
+table {
+  height: 100%; }
+
+.tabla td {
+  color: black; }
+
+.tabla th {
+  padding-right: 50px; }
+
+.division {
+  position: relative;
+  display: flex;
+  width: 50%; }
+
+.listas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%; }
+
+.lista {
+  display: flex;
+  position: relative;
+  font-size: 30px;
+  flex-direction: column;
+  font-weight: bold; }
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  gap: 20%; }
+
+.contratar {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 10%;
+  border: cyan 5px solid;
+  border-radius: 5px; }
+
+.fbronce {
+  background-color: #643005; }
+
+.fplata {
+  background-color: silver; }
+
+.foro {
+  background-color: goldenrod; }
+
+.bronce {
+  color: #643005; }
+
+.plata {
+  color: silver; }
+
+.oro {
+  color: goldenrod; }
+
+.footer {
+  position: relative;
+  display: flex;
+  background-color: goldenrod;
+  background-size: cover;
+  padding-top: 15px;
+  color: white;
+  list-style: none;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-size: 20px; }
+
+.footer li {
+  padding-right: 30px; }
+
+.CasillerosF {
+  width: 235px;
+  height: 35px; }
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 480px) {
+  .fondo2 {
     position: relative;
-    display: flex;
-    align-items: center;
+    background-image: url(../assets/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28312.webp);
     background-size: cover;
     object-fit: cover;
-    background-image: url(../assets/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28312.webp);
-    height: 100%; 
-    margin-top: 50px; 
+    padding-top: 100px;
+    padding-bottom: 100px; }
+  .contenedor-bg {
+    margin-top: 45px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-}
-
-.info{
+    height: auto;
+    gap: 40px;
+    align-items: center; }
+  .info {
     display: flex;
     flex-direction: column;
     position: relative;
     font-size: 20px;
     color: white;
-    margin-left: 100px;
+    width: 100%;
+    height: 50%;
     gap: 20px;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-}
-
-.formulario{
+    text-align: center;
+    align-items: center; }
+  .parte2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center; }
+  .formulario {
     position: relative;
     color: black;
-    margin-top: 50px;
-    margin-left: 200px;
-    width: 550px;
-    height: 650px;
+    width: 80%;
     border: solid 10px goldenrod;
     border-radius: 10px;
     text-align: center;
     background-color: white;
+    background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.formulario div{
-   padding-top: 30px;
-}
-
-.formulario div ::placeholder{
+    margin-bottom: 50px;
+    padding-bottom: 10%; }
+  .formulario div {
+    padding-top: 30px; }
+  .formulario div ::placeholder {
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.TamañoB{
-    padding: 10px 50px;
-}
-
-.Boton1{
-    padding: 10px 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+  .btns {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .Boton1 {
+    display: flex;
+    justify-content: center;
     border: solid 3px goldenrod;
     color: black;
     background-color: gainsboro;
     border-radius: 5px;
-} 
-
-.Boton2{
-        padding: 10px 103px;
-        border: solid 3px goldenrod;
-        color: black;
-        background-color: gainsboro;
-        border-radius: 5px;
-}
-
-.mapa{
+    width: 50%; }
+  .mapa {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-
-.footer{
+    gap: 10px; }
+  .caja {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    align-items: center;
+    margin-top: 100px; }
+  .tabla {
+    display: flex;
+    position: relative;
+    font-size: 15px;
+    color: black;
+    background-color: gainsboro;
+    background-size: cover;
+    border: solid 5px goldenrod;
+    padding: 0 5% 0 5%;
+    margin-left: 0;
+    border-radius: 10px;
+    width: 95%;
+    overflow: hidden;
+    height: auto; }
+  .tabla td {
+    color: black;
+    width: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%; }
+  .tabla tr {
+    padding-top: 10%;
+    width: 10%; }
+  .tabla th {
+    padding-right: 20px;
+    width: 10%; }
+  .division {
+    position: relative;
+    display: flex;
+    width: 90%;
+    gap: 10%; }
+  .listas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%; }
+  .lista {
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    flex-direction: column;
+    font-weight: bold; }
+  .botones {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 650px;
+    align-items: center;
+    gap: 50%; }
+  .contratar {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 10%;
+    border: cyan 5px solid;
+    border-radius: 5px;
+    font-weight: bold; }
+  .footer {
     position: relative;
     display: flex;
     background-color: goldenrod;
-    padding-top: 15px;
     color: white;
-    height: 40px;
+    background-size: cover;
     list-style: none;
-    padding-left: 30px;
-    font-size: 20px;
-}
-
-.footer li{
-    padding-right: 50px;
-}
-
-.CasillerosF{
-    width: 235px;
-    height: 35px;
-}
-
-@media only screen and (max-width: 480px){
-
-    .fondo2{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-size: cover;
-        object-fit: cover;
-        background-image: url(../assets/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28312.webp); 
-        margin-top: 50px; 
-        padding-top: 0px;
-        width: 100%;
-        padding-bottom: 600px;
-    }
-
-    .info{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        font-size: 20px;
-        color: white;
-        width: 100%;
-        gap: 20px;
-        font-size: 20px;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: bold;
-        padding-top: 60px;
-        margin-right: 0px;
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .mapa{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-    }
-
-    .formulario{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        color: black;
-        border: solid 10px goldenrod;
-        border-radius: 10px;
-        text-align: center;
-        background-color: white;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        align-items: center;
-        height: 700px;
-        width: 400px;
-        margin-left: 0;
-    }
-    
-    .formulario div ::placeholder{
-        font-size: 15px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    
-    .TamañoB{
-        padding: 10px 50px;
-    }
-    
-    .Boton1{
-        padding: 10px 80px;
-        border: solid 3px goldenrod;
-        color: black;
-        background-color: gainsboro;
-        border-radius: 5px;
-    } 
-    
-    .Boton2{
-            padding: 10px 103px;
-            border: solid 3px goldenrod;
-            color: black;
-            background-color: gainsboro;
-            border-radius: 5px;
-    }
-
-    .footer{
-        position: relative;
-        display: flex;
-        background-color: goldenrod;
-        color: white;
-        height: 40px;
-        list-style: none;
-        padding-left: 30px;
-        font-size: 15px;
-    }
-    
-    .footer li{
-        padding-right: 20px;
-    }
-
-
-}
+    padding-left: 10px;
+    font-size: 15px;
+    padding-bottom: 10px; }
+  .footer li {
+    padding-right: 20px; }
+  dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0; } }
