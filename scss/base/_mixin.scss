@@ -1,0 +1,5 @@
+@mixin contenedoresR($display,$dir,$pos){
+    display: $display;
+    flex-direction: $dir;
+    position: $pos;
+}

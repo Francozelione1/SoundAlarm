@@ -1,0 +1,25 @@
+.navColor{
+    background-color: goldenrod;
+    font-weight: bold;
+    position: fixed;
+    background-size: cover;
+    top: 0;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.navbar a{
+    font-weight: bold;
+    color: white;
+    transition: 0.8s;
+    font-size: 20px;
+
+    &:hover{
+        color: blue;
+    }
+
+}
+
+.dropdown-menu{
+    background-color: black;
+}

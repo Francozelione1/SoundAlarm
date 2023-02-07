@@ -1,6 +1,11 @@
 * {
+  margin: 0;
   padding: 0;
-  margin: 0; }
+  box-sizing: border-box; }
+
+* dl, * ol, * ul {
+  margin-top: 0;
+  margin-bottom: 0; }
 
 .navColor {
   background-color: goldenrod;
@@ -16,15 +21,11 @@
   color: white;
   transition: 0.8s;
   font-size: 20px; }
-
-.navbar a:hover {
-  color: blue; }
+  .navbar a:hover {
+    color: blue; }
 
 .dropdown-menu {
   background-color: black; }
-
-nav ul li {
-  display: inline-block; }
 
 .fondo3 {
   position: relative;
@@ -37,6 +38,7 @@ nav ul li {
 
 h3 {
   display: flex;
+  flex-direction: row;
   position: relative;
   font-size: 30px;
   font-weight: bold;
@@ -51,8 +53,9 @@ h3 {
   margin-left: 10px; }
 
 .cont {
-  position: relative;
   display: flex;
+  flex-direction: row;
+  position: relative;
   width: 100%;
   justify-content: center; }
 
@@ -73,6 +76,8 @@ p {
 
 .contenido {
   display: flex;
+  flex-direction: row;
+  position: relative;
   justify-content: center;
   align-items: center;
   color: white;
@@ -112,71 +117,33 @@ p {
 
 .imagen {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   position: relative;
+  justify-content: center;
   height: 100%;
   width: 100%; }
 
 .caja {
   display: flex;
+  flex-direction: row;
   position: relative;
   justify-content: center;
   align-items: center;
   gap: 50px;
   padding-top: 100px; }
 
-.tabla {
-  display: flex;
-  position: relative;
-  font-size: 20px;
-  color: black;
-  background-color: gainsboro;
-  border: solid 5px goldenrod;
-  padding: 20px;
-  border-radius: 10px; }
-
-.tabla td {
-  color: black;
-  padding-top: 70px; }
-
-.tabla th {
-  padding-right: 50px; }
-
-.listas {
-  display: flex;
-  flex-direction: column;
-  gap: 20px; }
-
-.lista {
-  display: flex;
-  position: relative;
-  font-size: 30px;
-  flex-direction: column;
-  margin-left: 50px; }
-
-.bronce {
-  color: #643005; }
-
-.plata {
-  color: silver; }
-
-.oro {
-  color: goldenrod; }
-
 .footer {
   position: relative;
   display: flex;
   background-color: goldenrod;
+  padding-top: 15px;
   color: white;
+  height: 50px;
   list-style: none;
-  padding-left: 10px;
-  font-size: 15px;
-  padding-top: 5px;
-  background-size: cover;
-  padding-bottom: 5px; }
-
-.footer li {
-  padding-right: 50px; }
+  font-size: 20px;
+  padding-left: 30px; }
+  .footer li {
+    padding-right: 50px; }
 
 dl, ol, ul {
   margin-top: 0;

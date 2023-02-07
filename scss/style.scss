@@ -1,33 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.navColor{
-    background-color: goldenrod;
-    font-weight: bold;
-    position: fixed;
-    background-size: cover;
-    top: 0;
-    font-size: 20px;
-    z-index: 1;
-}
-
-.navbar a{
-    font-weight: bold;
-    color: white;
-    transition: 0.8s;
-    font-size: 20px;
-}
-
-.navbar a:hover{
-    color: blue;
-}
-
-.dropdown-menu{
-    background-color: black;
-}
-
+@import './base/reset.scss';
+@import './base/vars';
+@import './base/extend';
+@import './components/navegador.scss';
 
 h3{
     color: rgb(250, 246, 246);
@@ -67,30 +41,29 @@ main{
 }
 
 .article2{
-    position: relative;
+    @include contenedoresR(flex,row,relative);
     margin-top: 100px;
     color: white;
     justify-content: center;
-    display: flex;
     text-align: center;
     gap: 150px;
-    height: 100%;
+    height: 800px;
     width: 100%;
 }
 
 .cajiquis{
     position: relative;
+    display: flex;
     width: 22%;
     border-radius: 5px;
     height: 100%;
-    display: flex;
     flex-direction: column;
     align-items: center;
     transition: 1s;
 }
 
 .cajiquis:hover{
-    transform: scale(1 , 1.1);
+    transform: scale(1.1, 1.1);
 }
 
 .bronce{
@@ -124,7 +97,7 @@ main{
 }
 
 .VerMas{
-    display: flex;
+    @include contenedoresR(flex,row,relative);
     align-self: flex-end;
     height: 50px;
     padding: 15px;
@@ -152,12 +125,11 @@ main{
 }
 
 .seguridad{
-    position: relative;
+    @include contenedoresR(flex,row,relative);
     background-image: url(../assets/Seguridad_Informatica.webp);
     background-size: cover;
     margin-top: 100px;
     object-fit: cover;
-    display: flex;
 }
 
 .seguridad-info{
@@ -230,6 +202,7 @@ h4{
     font-weight: bolder;
     margin-top: 40%;
     transition: 0,6s;
+    
 }
 
 .enterateForm:hover{
@@ -269,26 +242,7 @@ h4{
     border-radius: 5px;
 }
 
-.footer{
-    position: relative;
-    display: flex;
-    background-color: goldenrod;
-    padding-top: 15px;
-    color: white;
-    height: 50px;
-    list-style: none;
-    font-size: 20px;
-    padding-left: 30px;
-}
-
-.footer li{
-    padding-right: 50px;
-}
-
-dl, ol, ul {
-    margin-top: 0;
-    margin-bottom: 0;
-}
+@import './components/footer.scss';
 
 @media only screen and (max-width: 480px){
 
